@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* navigation bar */
+
+.nav {
+    background-color: #EEEEEE;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 60px;
+}
+
+.nav-title {
+    color: black;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+}
+  
+li {
+    float: right;
+}
+  
+li #Ryan {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    margin-left: 10px;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+  
+body {
+    margin:0;
+    background-color: #EEEEEE;
+}
+
+/* regarding the introduction section */
+
+.Introduction {
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    background-color: #EEEEEE;
+}
+
+div #brief {
+    font-size: 25px;
+    color: black;
+    margin: auto;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 15px;
+}
+
+#email {
+    text-align: left;
+    width: 20%;
+}
+
+.box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+}
+
+input[type='text'] {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#show-all {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px 40px;
+    background-color: yellow;
+    text-decoration: none;
+    transform: all 0.3s ease-in-out;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* regarding the features section */
+
+.Features {
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+.Features ul {
+    display: inline-block;
+    text-align: justify;
+    font-size: large;
+}
+
+#battery {
+    margin-left: -15%;
+    margin-bottom: -15.5%;
+}
+
+#shipping {
+    margin-left: -15%;
+    margin-bottom: -12.5%;
+}
+
+#assurance {
+    margin-left: -15%;
+    margin-bottom: -12.5%;
+}
+
+.premium h1 {
+    padding-top: 40px;
+    margin-bottom: 4%;
+}
+
+.premium p {
+    margin-bottom: 4%;
+}
+
+.shipping h1 {
+    margin-bottom: 4%;
+}
+
+.shipping p {
+    margin-bottom: 4%;
+}
+
+.assurance h1 {
+    margin-bottom: 4%;
+}
+
+.assurance p {
+    margin-bottom: 4%;
+}
+
+iframe {
+    margin:auto;
+    display:block;
+}
+
+#work {
+    padding-top: 70px;
+}
+
+.row {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.products {
+    width: 30%;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.products h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 15px;
+    background-color: #DDDDDD;
+}
+
+.products h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Footnote */
+
+.footer {
+    margin-top: 30px;
+    background-color: #DDDDDD;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+    float: right;
+    margin-right: 300px;
+    display:flex;
+    padding: 0px 20px;
+    padding-left: 112vh;
+}
+
+.footer1 {
+    background-color: #DDDDDD;
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+    float: right;
+    margin-right: 330px;
+    display:flex;
+    padding: 0px 30px;
+}
+
+.footer p {
+    padding-left: 30px;
+}
+
+.footer a#link {
+    text-decoration: none;
+    color: black;
+}
+
